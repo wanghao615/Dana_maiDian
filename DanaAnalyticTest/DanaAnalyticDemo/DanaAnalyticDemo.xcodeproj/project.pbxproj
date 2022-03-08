@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D10F4071E9B8E2B003C48FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F4061E9B8E2B003C48FC /* main.m */; };
+		2D10F40A1E9B8E2B003C48FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F4091E9B8E2B003C48FC /* AppDelegate.m */; };
+		2D10F40D1E9B8E2B003C48FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F40C1E9B8E2B003C48FC /* ViewController.m */; };
+		2D10F4101E9B8E2B003C48FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F40E1E9B8E2B003C48FC /* Main.storyboard */; };
+		2D10F4121E9B8E2B003C48FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F4111E9B8E2B003C48FC /* Assets.xcassets */; };
+		2D10F4151E9B8E2B003C48FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */; };
+		2D10F4201E9B8FEF003C48FC /* DAConf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F41F1E9B8FEF003C48FC /* DAConf.plist */; };
+		2D10F4221E9B9028003C48FC /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4211E9B9028003C48FC /* libicucore.tbd */; };
+		2D10F4241E9B9032003C48FC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4231E9B9032003C48FC /* libsqlite3.tbd */; };
+		2D10F4261E9B903C003C48FC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4251E9B903C003C48FC /* libz.tbd */; };
+		2D18007D1EA618F30093A9E0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18007C1EA618F30093A9E0 /* DetailViewController.m */; };
+		2D1800801EA61C980093A9E0 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18007F1EA61C980093A9E0 /* PostViewController.m */; };
+		2D235FF01EAF1949009DDFDE /* DAAbstractDesignerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FAD1EAF1949009DDFDE /* DAAbstractDesignerMessage.m */; };
+		2D235FF11EAF1949009DDFDE /* DAApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FAF1EAF1949009DDFDE /* DAApplicationStateSerializer.m */; };
+		2D235FF21EAF1949009DDFDE /* DAClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FB11EAF1949009DDFDE /* DAClassDescription.m */; };
+		2D235FF31EAF1949009DDFDE /* DADesignerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FB31EAF1949009DDFDE /* DADesignerConnection.m */; };
+		2D235FF41EAF1949009DDFDE /* DADesignerDeviceInfoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FB51EAF1949009DDFDE /* DADesignerDeviceInfoMessage.m */; };
+		2D235FF51EAF1949009DDFDE /* DADesignerDisconnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FB71EAF1949009DDFDE /* DADesignerDisconnectMessage.m */; };
+		2D235FF61EAF1949009DDFDE /* DADesignerEventBindingMesssage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FB91EAF1949009DDFDE /* DADesignerEventBindingMesssage.m */; };
+		2D235FF71EAF1949009DDFDE /* DADesignerSnapshotMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FBD1EAF1949009DDFDE /* DADesignerSnapshotMessage.m */; };
+		2D235FF81EAF1949009DDFDE /* DAEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FBF1EAF1949009DDFDE /* DAEnumDescription.m */; };
+		2D235FF91EAF1949009DDFDE /* DAEventBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FC11EAF1949009DDFDE /* DAEventBinding.m */; };
+		2D235FFA1EAF1949009DDFDE /* DAJSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FC31EAF1949009DDFDE /* DAJSONUtil.m */; };
+		2D235FFB1EAF1949009DDFDE /* DAKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FC51EAF1949009DDFDE /* DAKeyChainStore.m */; };
+		2D235FFC1EAF1949009DDFDE /* DALFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FC71EAF1949009DDFDE /* DALFCGzipUtility.m */; };
+		2D235FFD1EAF1949009DDFDE /* DAMessageQueueBySqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FCA1EAF1949009DDFDE /* DAMessageQueueBySqlite.m */; };
+		2D235FFE1EAF1949009DDFDE /* DanaAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FCD1EAF1949009DDFDE /* DanaAnalyticsSDK.m */; };
+		2D235FFF1EAF1949009DDFDE /* DAObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FCF1EAF1949009DDFDE /* DAObjectIdentityProvider.m */; };
+		2D2360001EAF1949009DDFDE /* DAObjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FD11EAF1949009DDFDE /* DAObjectSelector.m */; };
+		2D2360011EAF1949009DDFDE /* DAObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FD31EAF1949009DDFDE /* DAObjectSerializer.m */; };
+		2D2360021EAF1949009DDFDE /* DAObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FD51EAF1949009DDFDE /* DAObjectSerializerConfig.m */; };
+		2D2360031EAF1949009DDFDE /* DAObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FD71EAF1949009DDFDE /* DAObjectSerializerContext.m */; };
+		2D2360041EAF1949009DDFDE /* DAPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FD91EAF1949009DDFDE /* DAPropertyDescription.m */; };
+		2D2360051EAF1949009DDFDE /* DAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FDB1EAF1949009DDFDE /* DAReachability.m */; };
+		2D2360061EAF1949009DDFDE /* DASwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FDD1EAF1949009DDFDE /* DASwizzler.m */; };
+		2D2360071EAF1949009DDFDE /* DATypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FDF1EAF1949009DDFDE /* DATypeDescription.m */; };
+		2D2360081EAF1949009DDFDE /* DAUIControlBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FE11EAF1949009DDFDE /* DAUIControlBinding.m */; };
+		2D2360091EAF1949009DDFDE /* DAUITableViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FE31EAF1949009DDFDE /* DAUITableViewBinding.m */; };
+		2D23600A1EAF1949009DDFDE /* DAUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FE51EAF1949009DDFDE /* DAUUID.m */; };
+		2D23600B1EAF1949009DDFDE /* DAValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FE71EAF1949009DDFDE /* DAValueTransformers.m */; };
+		2D23600C1EAF1949009DDFDE /* DAWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FE91EAF1949009DDFDE /* DAWebSocket.m */; };
+		2D23600D1EAF1949009DDFDE /* NSData+DABase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FEB1EAF1949009DDFDE /* NSData+DABase64.m */; };
+		2D23600E1EAF1949009DDFDE /* NSInvocation+DAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FED1EAF1949009DDFDE /* NSInvocation+DAHelpers.m */; };
+		2D23600F1EAF1949009DDFDE /* UIView+DAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D235FEF1EAF1949009DDFDE /* UIView+DAHelpers.m */; };
+		2D6DFA452236541500DA3F7F /* DAXXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DFA442236541500DA3F7F /* DAXXTEA.m */; };
+		2D88FB3B20BD4E5F00EB9D40 /* TestInwinowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88FB3920BD4E5E00EB9D40 /* TestInwinowViewController.m */; };
+		2DF55F8E224C9D9100188821 /* DAExceptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF55F8A224C9D8F00188821 /* DAExceptionModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanaAnalyticDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D10F4061E9B8E2B003C48FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D10F4081E9B8E2B003C48FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D10F4091E9B8E2B003C48FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D10F40B1E9B8E2B003C48FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D10F40C1E9B8E2B003C48FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D10F40F1E9B8E2B003C48FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D10F4111E9B8E2B003C48FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D10F4141E9B8E2B003C48FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D10F4161E9B8E2B003C48FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D10F41F1E9B8FEF003C48FC /* DAConf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DAConf.plist; sourceTree = "<group>"; };
+		2D10F4211E9B9028003C48FC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2D10F4231E9B9032003C48FC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2D10F4251E9B903C003C48FC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D18007B1EA618F30093A9E0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2D18007C1EA618F30093A9E0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2D18007E1EA61C980093A9E0 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		2D18007F1EA61C980093A9E0 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		2D235FAC1EAF1949009DDFDE /* DAAbstractDesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAAbstractDesignerMessage.h; sourceTree = "<group>"; };
+		2D235FAD1EAF1949009DDFDE /* DAAbstractDesignerMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAAbstractDesignerMessage.m; sourceTree = "<group>"; };
+		2D235FAE1EAF1949009DDFDE /* DAApplicationStateSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAApplicationStateSerializer.h; sourceTree = "<group>"; };
+		2D235FAF1EAF1949009DDFDE /* DAApplicationStateSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAApplicationStateSerializer.m; sourceTree = "<group>"; };
+		2D235FB01EAF1949009DDFDE /* DAClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAClassDescription.h; sourceTree = "<group>"; };
+		2D235FB11EAF1949009DDFDE /* DAClassDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAClassDescription.m; sourceTree = "<group>"; };
+		2D235FB21EAF1949009DDFDE /* DADesignerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerConnection.h; sourceTree = "<group>"; };
+		2D235FB31EAF1949009DDFDE /* DADesignerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADesignerConnection.m; sourceTree = "<group>"; };
+		2D235FB41EAF1949009DDFDE /* DADesignerDeviceInfoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerDeviceInfoMessage.h; sourceTree = "<group>"; };
+		2D235FB51EAF1949009DDFDE /* DADesignerDeviceInfoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADesignerDeviceInfoMessage.m; sourceTree = "<group>"; };
+		2D235FB61EAF1949009DDFDE /* DADesignerDisconnectMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerDisconnectMessage.h; sourceTree = "<group>"; };
+		2D235FB71EAF1949009DDFDE /* DADesignerDisconnectMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADesignerDisconnectMessage.m; sourceTree = "<group>"; };
+		2D235FB81EAF1949009DDFDE /* DADesignerEventBindingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerEventBindingMessage.h; sourceTree = "<group>"; };
+		2D235FB91EAF1949009DDFDE /* DADesignerEventBindingMesssage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADesignerEventBindingMesssage.m; sourceTree = "<group>"; };
+		2D235FBA1EAF1949009DDFDE /* DADesignerMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerMessage.h; sourceTree = "<group>"; };
+		2D235FBB1EAF1949009DDFDE /* DADesignerSessionCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerSessionCollection.h; sourceTree = "<group>"; };
+		2D235FBC1EAF1949009DDFDE /* DADesignerSnapshotMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADesignerSnapshotMessage.h; sourceTree = "<group>"; };
+		2D235FBD1EAF1949009DDFDE /* DADesignerSnapshotMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADesignerSnapshotMessage.m; sourceTree = "<group>"; };
+		2D235FBE1EAF1949009DDFDE /* DAEnumDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAEnumDescription.h; sourceTree = "<group>"; };
+		2D235FBF1EAF1949009DDFDE /* DAEnumDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAEnumDescription.m; sourceTree = "<group>"; };
+		2D235FC01EAF1949009DDFDE /* DAEventBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAEventBinding.h; sourceTree = "<group>"; };
+		2D235FC11EAF1949009DDFDE /* DAEventBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAEventBinding.m; sourceTree = "<group>"; };
+		2D235FC21EAF1949009DDFDE /* DAJSONUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAJSONUtil.h; sourceTree = "<group>"; };
+		2D235FC31EAF1949009DDFDE /* DAJSONUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAJSONUtil.m; sourceTree = "<group>"; };
+		2D235FC41EAF1949009DDFDE /* DAKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyChainStore.h; sourceTree = "<group>"; };
+		2D235FC51EAF1949009DDFDE /* DAKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyChainStore.m; sourceTree = "<group>"; };
+		2D235FC61EAF1949009DDFDE /* DALFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALFCGzipUtility.h; sourceTree = "<group>"; };
+		2D235FC71EAF1949009DDFDE /* DALFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALFCGzipUtility.m; sourceTree = "<group>"; };
+		2D235FC81EAF1949009DDFDE /* DALogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALogger.h; sourceTree = "<group>"; };
+		2D235FC91EAF1949009DDFDE /* DAMessageQueueBySqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMessageQueueBySqlite.h; sourceTree = "<group>"; };
+		2D235FCA1EAF1949009DDFDE /* DAMessageQueueBySqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMessageQueueBySqlite.m; sourceTree = "<group>"; };
+		2D235FCB1EAF1949009DDFDE /* DanaAnalytic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanaAnalytic.h; sourceTree = "<group>"; };
+		2D235FCC1EAF1949009DDFDE /* DanaAnalyticsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanaAnalyticsSDK.h; sourceTree = "<group>"; };
+		2D235FCD1EAF1949009DDFDE /* DanaAnalyticsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanaAnalyticsSDK.m; sourceTree = "<group>"; };
+		2D235FCE1EAF1949009DDFDE /* DAObjectIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAObjectIdentityProvider.h; sourceTree = "<group>"; };
+		2D235FCF1EAF1949009DDFDE /* DAObjectIdentityProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAObjectIdentityProvider.m; sourceTree = "<group>"; };
+		2D235FD01EAF1949009DDFDE /* DAObjectSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAObjectSelector.h; sourceTree = "<group>"; };
+		2D235FD11EAF1949009DDFDE /* DAObjectSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAObjectSelector.m; sourceTree = "<group>"; };
+		2D235FD21EAF1949009DDFDE /* DAObjectSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAObjectSerializer.h; sourceTree = "<group>"; };
+		2D235FD31EAF1949009DDFDE /* DAObjectSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAObjectSerializer.m; sourceTree = "<group>"; };
+		2D235FD41EAF1949009DDFDE /* DAObjectSerializerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAObjectSerializerConfig.h; sourceTree = "<group>"; };
+		2D235FD51EAF1949009DDFDE /* DAObjectSerializerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAObjectSerializerConfig.m; sourceTree = "<group>"; };
+		2D235FD61EAF1949009DDFDE /* DAObjectSerializerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAObjectSerializerContext.h; sourceTree = "<group>"; };
+		2D235FD71EAF1949009DDFDE /* DAObjectSerializerContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAObjectSerializerContext.m; sourceTree = "<group>"; };
+		2D235FD81EAF1949009DDFDE /* DAPropertyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPropertyDescription.h; sourceTree = "<group>"; };
+		2D235FD91EAF1949009DDFDE /* DAPropertyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPropertyDescription.m; sourceTree = "<group>"; };
+		2D235FDA1EAF1949009DDFDE /* DAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAReachability.h; sourceTree = "<group>"; };
+		2D235FDB1EAF1949009DDFDE /* DAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAReachability.m; sourceTree = "<group>"; };
+		2D235FDC1EAF1949009DDFDE /* DASwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASwizzler.h; sourceTree = "<group>"; };
+		2D235FDD1EAF1949009DDFDE /* DASwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASwizzler.m; sourceTree = "<group>"; };
+		2D235FDE1EAF1949009DDFDE /* DATypeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATypeDescription.h; sourceTree = "<group>"; };
+		2D235FDF1EAF1949009DDFDE /* DATypeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATypeDescription.m; sourceTree = "<group>"; };
+		2D235FE01EAF1949009DDFDE /* DAUIControlBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUIControlBinding.h; sourceTree = "<group>"; };
+		2D235FE11EAF1949009DDFDE /* DAUIControlBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUIControlBinding.m; sourceTree = "<group>"; };
+		2D235FE21EAF1949009DDFDE /* DAUITableViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUITableViewBinding.h; sourceTree = "<group>"; };
+		2D235FE31EAF1949009DDFDE /* DAUITableViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUITableViewBinding.m; sourceTree = "<group>"; };
+		2D235FE41EAF1949009DDFDE /* DAUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUUID.h; sourceTree = "<group>"; };
+		2D235FE51EAF1949009DDFDE /* DAUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUUID.m; sourceTree = "<group>"; };
+		2D235FE61EAF1949009DDFDE /* DAValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAValueTransformers.h; sourceTree = "<group>"; };
+		2D235FE71EAF1949009DDFDE /* DAValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAValueTransformers.m; sourceTree = "<group>"; };
+		2D235FE81EAF1949009DDFDE /* DAWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWebSocket.h; sourceTree = "<group>"; };
+		2D235FE91EAF1949009DDFDE /* DAWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWebSocket.m; sourceTree = "<group>"; };
+		2D235FEA1EAF1949009DDFDE /* NSData+DABase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DABase64.h"; sourceTree = "<group>"; };
+		2D235FEB1EAF1949009DDFDE /* NSData+DABase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DABase64.m"; sourceTree = "<group>"; };
+		2D235FEC1EAF1949009DDFDE /* NSInvocation+DAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+DAHelpers.h"; sourceTree = "<group>"; };
+		2D235FED1EAF1949009DDFDE /* NSInvocation+DAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+DAHelpers.m"; sourceTree = "<group>"; };
+		2D235FEE1EAF1949009DDFDE /* UIView+DAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DAHelpers.h"; sourceTree = "<group>"; };
+		2D235FEF1EAF1949009DDFDE /* UIView+DAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DAHelpers.m"; sourceTree = "<group>"; };
+		2D6DFA432236541500DA3F7F /* DAXXTEA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAXXTEA.h; sourceTree = "<group>"; };
+		2D6DFA442236541500DA3F7F /* DAXXTEA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAXXTEA.m; sourceTree = "<group>"; };
+		2D88FB3920BD4E5E00EB9D40 /* TestInwinowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInwinowViewController.m; sourceTree = "<group>"; };
+		2D88FB3A20BD4E5E00EB9D40 /* TestInwinowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInwinowViewController.h; sourceTree = "<group>"; };
+		2DF55F8A224C9D8F00188821 /* DAExceptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAExceptionModel.m; sourceTree = "<group>"; };
+		2DF55F8B224C9D8F00188821 /* DAExceptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAExceptionModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D10F3FF1E9B8E2B003C48FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10F4261E9B903C003C48FC /* libz.tbd in Frameworks */,
+				2D10F4241E9B9032003C48FC /* libsqlite3.tbd in Frameworks */,
+				2D10F4221E9B9028003C48FC /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D10F3F91E9B8E2B003C48FC = {
+			isa = PBXGroup;
+			children = (
+				2D10F4041E9B8E2B003C48FC /* DanaAnalyticDemo */,
+				2D10F4031E9B8E2B003C48FC /* Products */,
+				2D10F41C1E9B8ECF003C48FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D10F4031E9B8E2B003C48FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D10F4041E9B8E2B003C48FC /* DanaAnalyticDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4081E9B8E2B003C48FC /* AppDelegate.h */,
+				2D10F4091E9B8E2B003C48FC /* AppDelegate.m */,
+				2D10F40B1E9B8E2B003C48FC /* ViewController.h */,
+				2D10F40C1E9B8E2B003C48FC /* ViewController.m */,
+				2D18007B1EA618F30093A9E0 /* DetailViewController.h */,
+				2D18007C1EA618F30093A9E0 /* DetailViewController.m */,
+				2D18007E1EA61C980093A9E0 /* PostViewController.h */,
+				2D18007F1EA61C980093A9E0 /* PostViewController.m */,
+				2D88FB3A20BD4E5E00EB9D40 /* TestInwinowViewController.h */,
+				2D88FB3920BD4E5E00EB9D40 /* TestInwinowViewController.m */,
+				2DFB100E1EA6F8BE00C1093B /* DanaAnalytic */,
+				2D10F40E1E9B8E2B003C48FC /* Main.storyboard */,
+				2D10F4111E9B8E2B003C48FC /* Assets.xcassets */,
+				2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */,
+				2D10F4161E9B8E2B003C48FC /* Info.plist */,
+				2D10F4051E9B8E2B003C48FC /* Supporting Files */,
+			);
+			path = DanaAnalyticDemo;
+			sourceTree = "<group>";
+		};
+		2D10F4051E9B8E2B003C48FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F41F1E9B8FEF003C48FC /* DAConf.plist */,
+				2D10F4061E9B8E2B003C48FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D10F41C1E9B8ECF003C48FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4251E9B903C003C48FC /* libz.tbd */,
+				2D10F4231E9B9032003C48FC /* libsqlite3.tbd */,
+				2D10F4211E9B9028003C48FC /* libicucore.tbd */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DFB100E1EA6F8BE00C1093B /* DanaAnalytic */ = {
+			isa = PBXGroup;
+			children = (
+				2D235FAC1EAF1949009DDFDE /* DAAbstractDesignerMessage.h */,
+				2D235FAD1EAF1949009DDFDE /* DAAbstractDesignerMessage.m */,
+				2D235FAE1EAF1949009DDFDE /* DAApplicationStateSerializer.h */,
+				2D235FAF1EAF1949009DDFDE /* DAApplicationStateSerializer.m */,
+				2D235FB01EAF1949009DDFDE /* DAClassDescription.h */,
+				2D235FB11EAF1949009DDFDE /* DAClassDescription.m */,
+				2D235FB21EAF1949009DDFDE /* DADesignerConnection.h */,
+				2D235FB31EAF1949009DDFDE /* DADesignerConnection.m */,
+				2D235FB41EAF1949009DDFDE /* DADesignerDeviceInfoMessage.h */,
+				2D235FB51EAF1949009DDFDE /* DADesignerDeviceInfoMessage.m */,
+				2D235FB61EAF1949009DDFDE /* DADesignerDisconnectMessage.h */,
+				2D235FB71EAF1949009DDFDE /* DADesignerDisconnectMessage.m */,
+				2D235FB81EAF1949009DDFDE /* DADesignerEventBindingMessage.h */,
+				2D235FB91EAF1949009DDFDE /* DADesignerEventBindingMesssage.m */,
+				2D235FBA1EAF1949009DDFDE /* DADesignerMessage.h */,
+				2D235FBB1EAF1949009DDFDE /* DADesignerSessionCollection.h */,
+				2D235FBC1EAF1949009DDFDE /* DADesignerSnapshotMessage.h */,
+				2D235FBD1EAF1949009DDFDE /* DADesignerSnapshotMessage.m */,
+				2D235FBE1EAF1949009DDFDE /* DAEnumDescription.h */,
+				2D235FBF1EAF1949009DDFDE /* DAEnumDescription.m */,
+				2D235FC01EAF1949009DDFDE /* DAEventBinding.h */,
+				2D235FC11EAF1949009DDFDE /* DAEventBinding.m */,
+				2D235FC21EAF1949009DDFDE /* DAJSONUtil.h */,
+				2D235FC31EAF1949009DDFDE /* DAJSONUtil.m */,
+				2D235FC41EAF1949009DDFDE /* DAKeyChainStore.h */,
+				2D235FC51EAF1949009DDFDE /* DAKeyChainStore.m */,
+				2D235FC61EAF1949009DDFDE /* DALFCGzipUtility.h */,
+				2D235FC71EAF1949009DDFDE /* DALFCGzipUtility.m */,
+				2D235FC81EAF1949009DDFDE /* DALogger.h */,
+				2D235FC91EAF1949009DDFDE /* DAMessageQueueBySqlite.h */,
+				2D235FCA1EAF1949009DDFDE /* DAMessageQueueBySqlite.m */,
+				2D235FCB1EAF1949009DDFDE /* DanaAnalytic.h */,
+				2D235FCC1EAF1949009DDFDE /* DanaAnalyticsSDK.h */,
+				2D235FCD1EAF1949009DDFDE /* DanaAnalyticsSDK.m */,
+				2D235FCE1EAF1949009DDFDE /* DAObjectIdentityProvider.h */,
+				2D235FCF1EAF1949009DDFDE /* DAObjectIdentityProvider.m */,
+				2D235FD01EAF1949009DDFDE /* DAObjectSelector.h */,
+				2D235FD11EAF1949009DDFDE /* DAObjectSelector.m */,
+				2D235FD21EAF1949009DDFDE /* DAObjectSerializer.h */,
+				2D235FD31EAF1949009DDFDE /* DAObjectSerializer.m */,
+				2D235FD41EAF1949009DDFDE /* DAObjectSerializerConfig.h */,
+				2D235FD51EAF1949009DDFDE /* DAObjectSerializerConfig.m */,
+				2D235FD61EAF1949009DDFDE /* DAObjectSerializerContext.h */,
+				2D235FD71EAF1949009DDFDE /* DAObjectSerializerContext.m */,
+				2D235FD81EAF1949009DDFDE /* DAPropertyDescription.h */,
+				2D235FD91EAF1949009DDFDE /* DAPropertyDescription.m */,
+				2D235FDA1EAF1949009DDFDE /* DAReachability.h */,
+				2D235FDB1EAF1949009DDFDE /* DAReachability.m */,
+				2D235FDC1EAF1949009DDFDE /* DASwizzler.h */,
+				2D235FDD1EAF1949009DDFDE /* DASwizzler.m */,
+				2D235FDE1EAF1949009DDFDE /* DATypeDescription.h */,
+				2D235FDF1EAF1949009DDFDE /* DATypeDescription.m */,
+				2D235FE01EAF1949009DDFDE /* DAUIControlBinding.h */,
+				2D235FE11EAF1949009DDFDE /* DAUIControlBinding.m */,
+				2D235FE21EAF1949009DDFDE /* DAUITableViewBinding.h */,
+				2D235FE31EAF1949009DDFDE /* DAUITableViewBinding.m */,
+				2D235FE41EAF1949009DDFDE /* DAUUID.h */,
+				2D235FE51EAF1949009DDFDE /* DAUUID.m */,
+				2D235FE61EAF1949009DDFDE /* DAValueTransformers.h */,
+				2D235FE71EAF1949009DDFDE /* DAValueTransformers.m */,
+				2D235FE81EAF1949009DDFDE /* DAWebSocket.h */,
+				2D235FE91EAF1949009DDFDE /* DAWebSocket.m */,
+				2D235FEA1EAF1949009DDFDE /* NSData+DABase64.h */,
+				2D235FEB1EAF1949009DDFDE /* NSData+DABase64.m */,
+				2D235FEC1EAF1949009DDFDE /* NSInvocation+DAHelpers.h */,
+				2D235FED1EAF1949009DDFDE /* NSInvocation+DAHelpers.m */,
+				2D235FEE1EAF1949009DDFDE /* UIView+DAHelpers.h */,
+				2D235FEF1EAF1949009DDFDE /* UIView+DAHelpers.m */,
+				2D6DFA432236541500DA3F7F /* DAXXTEA.h */,
+				2D6DFA442236541500DA3F7F /* DAXXTEA.m */,
+				2DF55F8B224C9D8F00188821 /* DAExceptionModel.h */,
+				2DF55F8A224C9D8F00188821 /* DAExceptionModel.m */,
+			);
+			path = DanaAnalytic;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D10F4011E9B8E2B003C48FC /* DanaAnalyticDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D10F4191E9B8E2B003C48FC /* Build configuration list for PBXNativeTarget "DanaAnalyticDemo" */;
+			buildPhases = (
+				2D10F3FE1E9B8E2B003C48FC /* Sources */,
+				2D10F3FF1E9B8E2B003C48FC /* Frameworks */,
+				2D10F4001E9B8E2B003C48FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanaAnalyticDemo;
+			productName = DanaAnalyticDemo;
+			productReference = 2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D10F3FA1E9B8E2B003C48FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiongsh;
+				TargetAttributes = {
+					2D10F4011E9B8E2B003C48FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RX43BK2XZ6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2D10F3FD1E9B8E2B003C48FC /* Build configuration list for PBXProject "DanaAnalyticDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 2D10F3F91E9B8E2B003C48FC;
+			productRefGroup = 2D10F4031E9B8E2B003C48FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D10F4011E9B8E2B003C48FC /* DanaAnalyticDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D10F4001E9B8E2B003C48FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10F4151E9B8E2B003C48FC /* LaunchScreen.storyboard in Resources */,
+				2D10F4201E9B8FEF003C48FC /* DAConf.plist in Resources */,
+				2D10F4121E9B8E2B003C48FC /* Assets.xcassets in Resources */,
+				2D10F4101E9B8E2B003C48FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D10F3FE1E9B8E2B003C48FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2360001EAF1949009DDFDE /* DAObjectSelector.m in Sources */,
+				2D2360021EAF1949009DDFDE /* DAObjectSerializerConfig.m in Sources */,
+				2D235FF31EAF1949009DDFDE /* DADesignerConnection.m in Sources */,
+				2D235FF41EAF1949009DDFDE /* DADesignerDeviceInfoMessage.m in Sources */,
+				2D235FF11EAF1949009DDFDE /* DAApplicationStateSerializer.m in Sources */,
+				2D235FFC1EAF1949009DDFDE /* DALFCGzipUtility.m in Sources */,
+				2D2360081EAF1949009DDFDE /* DAUIControlBinding.m in Sources */,
+				2D235FFF1EAF1949009DDFDE /* DAObjectIdentityProvider.m in Sources */,
+				2D10F40D1E9B8E2B003C48FC /* ViewController.m in Sources */,
+				2D2360031EAF1949009DDFDE /* DAObjectSerializerContext.m in Sources */,
+				2D235FFA1EAF1949009DDFDE /* DAJSONUtil.m in Sources */,
+				2D2360051EAF1949009DDFDE /* DAReachability.m in Sources */,
+				2D10F40A1E9B8E2B003C48FC /* AppDelegate.m in Sources */,
+				2D10F4071E9B8E2B003C48FC /* main.m in Sources */,
+				2D23600C1EAF1949009DDFDE /* DAWebSocket.m in Sources */,
+				2D2360041EAF1949009DDFDE /* DAPropertyDescription.m in Sources */,
+				2D235FFB1EAF1949009DDFDE /* DAKeyChainStore.m in Sources */,
+				2DF55F8E224C9D9100188821 /* DAExceptionModel.m in Sources */,
+				2D23600B1EAF1949009DDFDE /* DAValueTransformers.m in Sources */,
+				2D88FB3B20BD4E5F00EB9D40 /* TestInwinowViewController.m in Sources */,
+				2D235FF81EAF1949009DDFDE /* DAEnumDescription.m in Sources */,
+				2D235FF71EAF1949009DDFDE /* DADesignerSnapshotMessage.m in Sources */,
+				2D23600D1EAF1949009DDFDE /* NSData+DABase64.m in Sources */,
+				2D23600E1EAF1949009DDFDE /* NSInvocation+DAHelpers.m in Sources */,
+				2D235FFE1EAF1949009DDFDE /* DanaAnalyticsSDK.m in Sources */,
+				2D2360011EAF1949009DDFDE /* DAObjectSerializer.m in Sources */,
+				2D18007D1EA618F30093A9E0 /* DetailViewController.m in Sources */,
+				2D235FF51EAF1949009DDFDE /* DADesignerDisconnectMessage.m in Sources */,
+				2D235FF61EAF1949009DDFDE /* DADesignerEventBindingMesssage.m in Sources */,
+				2D1800801EA61C980093A9E0 /* PostViewController.m in Sources */,
+				2D23600F1EAF1949009DDFDE /* UIView+DAHelpers.m in Sources */,
+				2D235FFD1EAF1949009DDFDE /* DAMessageQueueBySqlite.m in Sources */,
+				2D2360091EAF1949009DDFDE /* DAUITableViewBinding.m in Sources */,
+				2D235FF91EAF1949009DDFDE /* DAEventBinding.m in Sources */,
+				2D235FF21EAF1949009DDFDE /* DAClassDescription.m in Sources */,
+				2D2360061EAF1949009DDFDE /* DASwizzler.m in Sources */,
+				2D2360071EAF1949009DDFDE /* DATypeDescription.m in Sources */,
+				2D6DFA452236541500DA3F7F /* DAXXTEA.m in Sources */,
+				2D235FF01EAF1949009DDFDE /* DAAbstractDesignerMessage.m in Sources */,
+				2D23600A1EAF1949009DDFDE /* DAUUID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D10F40E1E9B8E2B003C48FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D10F40F1E9B8E2B003C48FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D10F4141E9B8E2B003C48FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D10F4171E9B8E2B003C48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D10F4181E9B8E2B003C48FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D10F41A1E9B8E2B003C48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RX43BK2XZ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DanaAnalyticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.testnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = test_dev;
+			};
+			name = Debug;
+		};
+		2D10F41B1E9B8E2B003C48FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RX43BK2XZ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = DanaAnalyticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.testnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = test_dev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D10F3FD1E9B8E2B003C48FC /* Build configuration list for PBXProject "DanaAnalyticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D10F4171E9B8E2B003C48FC /* Debug */,
+				2D10F4181E9B8E2B003C48FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D10F4191E9B8E2B003C48FC /* Build configuration list for PBXNativeTarget "DanaAnalyticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D10F41A1E9B8E2B003C48FC /* Debug */,
+				2D10F41B1E9B8E2B003C48FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D10F3FA1E9B8E2B003C48FC /* Project object */;
+}

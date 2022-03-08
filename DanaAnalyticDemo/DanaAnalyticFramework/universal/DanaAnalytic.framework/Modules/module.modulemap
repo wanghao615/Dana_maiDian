@@ -1,0 +1,6 @@
+framework module DanaAnalytic {
+  umbrella header "DanaAnalytic.h"
+
+  export *
+  module * { export * }
+}

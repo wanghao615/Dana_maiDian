@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>project</key>
+	<string>dana_usercenter</string>
+	<key>token</key>
+	<string>b0b13e619be39ba3de3b457ceaa500a9</string>
+	<key>topic</key>
+	<string>dana_usercenter</string>
+	<key>version</key>
+	<string>2</string>
+	<key>danabaseurl</key>
+	<string>https://kdclog.kingnetdc.com/dana</string>
+	<key>errorTopic</key>
+	<string>dana_app_error</string>
+	<key>errorToken</key>
+	<string>db58544527606287c8f9a37d879e600d</string>
+</dict>
+</plist>

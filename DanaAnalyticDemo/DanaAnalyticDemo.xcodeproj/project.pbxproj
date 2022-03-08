@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D10F4071E9B8E2B003C48FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F4061E9B8E2B003C48FC /* main.m */; };
+		2D10F40A1E9B8E2B003C48FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F4091E9B8E2B003C48FC /* AppDelegate.m */; };
+		2D10F40D1E9B8E2B003C48FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D10F40C1E9B8E2B003C48FC /* ViewController.m */; };
+		2D10F4101E9B8E2B003C48FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F40E1E9B8E2B003C48FC /* Main.storyboard */; };
+		2D10F4121E9B8E2B003C48FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F4111E9B8E2B003C48FC /* Assets.xcassets */; };
+		2D10F4151E9B8E2B003C48FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */; };
+		2D10F4221E9B9028003C48FC /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4211E9B9028003C48FC /* libicucore.tbd */; };
+		2D10F4241E9B9032003C48FC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4231E9B9032003C48FC /* libsqlite3.tbd */; };
+		2D10F4261E9B903C003C48FC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D10F4251E9B903C003C48FC /* libz.tbd */; };
+		2D3A3FD11EB04F2300E8E434 /* TestInwinowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A3FD01EB04F2300E8E434 /* TestInwinowViewController.m */; };
+		2DFB11031EA73F6600C1093B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB11001EA73F6600C1093B /* DetailViewController.m */; };
+		2DFB11041EA73F6600C1093B /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB11021EA73F6600C1093B /* PostViewController.m */; };
+		2DFB11201EA77D9600C1093B /* DAConf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFB111F1EA77D9600C1093B /* DAConf.plist */; };
+		88A83D8D25F0A86D003332C8 /* DanaAnalytic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A83D8C25F0A86D003332C8 /* DanaAnalytic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanaAnalyticDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D10F4061E9B8E2B003C48FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D10F4081E9B8E2B003C48FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D10F4091E9B8E2B003C48FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D10F40B1E9B8E2B003C48FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D10F40C1E9B8E2B003C48FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D10F40F1E9B8E2B003C48FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D10F4111E9B8E2B003C48FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D10F4141E9B8E2B003C48FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D10F4161E9B8E2B003C48FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D10F4211E9B9028003C48FC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2D10F4231E9B9032003C48FC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2D10F4251E9B903C003C48FC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D3A3FCF1EB04F2300E8E434 /* TestInwinowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInwinowViewController.h; sourceTree = "<group>"; };
+		2D3A3FD01EB04F2300E8E434 /* TestInwinowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInwinowViewController.m; sourceTree = "<group>"; };
+		2DFB10FF1EA73F6600C1093B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2DFB11001EA73F6600C1093B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2DFB11011EA73F6600C1093B /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		2DFB11021EA73F6600C1093B /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		2DFB111F1EA77D9600C1093B /* DAConf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DAConf.plist; sourceTree = "<group>"; };
+		88A83D8C25F0A86D003332C8 /* DanaAnalytic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DanaAnalytic.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D10F3FF1E9B8E2B003C48FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10F4261E9B903C003C48FC /* libz.tbd in Frameworks */,
+				2D10F4241E9B9032003C48FC /* libsqlite3.tbd in Frameworks */,
+				2D10F4221E9B9028003C48FC /* libicucore.tbd in Frameworks */,
+				88A83D8D25F0A86D003332C8 /* DanaAnalytic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D10F3F91E9B8E2B003C48FC = {
+			isa = PBXGroup;
+			children = (
+				2D10F4041E9B8E2B003C48FC /* DanaAnalyticDemo */,
+				2D10F4031E9B8E2B003C48FC /* Products */,
+				2D10F41C1E9B8ECF003C48FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D10F4031E9B8E2B003C48FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D10F4041E9B8E2B003C48FC /* DanaAnalyticDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4081E9B8E2B003C48FC /* AppDelegate.h */,
+				2D10F4091E9B8E2B003C48FC /* AppDelegate.m */,
+				2D10F40B1E9B8E2B003C48FC /* ViewController.h */,
+				2D10F40C1E9B8E2B003C48FC /* ViewController.m */,
+				2DFB10FF1EA73F6600C1093B /* DetailViewController.h */,
+				2DFB11001EA73F6600C1093B /* DetailViewController.m */,
+				2DFB11011EA73F6600C1093B /* PostViewController.h */,
+				2DFB11021EA73F6600C1093B /* PostViewController.m */,
+				2D3A3FCF1EB04F2300E8E434 /* TestInwinowViewController.h */,
+				2D3A3FD01EB04F2300E8E434 /* TestInwinowViewController.m */,
+				2D10F40E1E9B8E2B003C48FC /* Main.storyboard */,
+				2D10F4111E9B8E2B003C48FC /* Assets.xcassets */,
+				2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */,
+				2D10F4161E9B8E2B003C48FC /* Info.plist */,
+				2D10F4051E9B8E2B003C48FC /* Supporting Files */,
+			);
+			path = DanaAnalyticDemo;
+			sourceTree = "<group>";
+		};
+		2D10F4051E9B8E2B003C48FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D10F4061E9B8E2B003C48FC /* main.m */,
+				2DFB111F1EA77D9600C1093B /* DAConf.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D10F41C1E9B8ECF003C48FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A83D8C25F0A86D003332C8 /* DanaAnalytic.framework */,
+				2D10F4251E9B903C003C48FC /* libz.tbd */,
+				2D10F4231E9B9032003C48FC /* libsqlite3.tbd */,
+				2D10F4211E9B9028003C48FC /* libicucore.tbd */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D10F4011E9B8E2B003C48FC /* DanaAnalyticDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D10F4191E9B8E2B003C48FC /* Build configuration list for PBXNativeTarget "DanaAnalyticDemo" */;
+			buildPhases = (
+				2D10F3FE1E9B8E2B003C48FC /* Sources */,
+				2D10F3FF1E9B8E2B003C48FC /* Frameworks */,
+				2D10F4001E9B8E2B003C48FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanaAnalyticDemo;
+			productName = DanaAnalyticDemo;
+			productReference = 2D10F4021E9B8E2B003C48FC /* DanaAnalyticDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D10F3FA1E9B8E2B003C48FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiongsh;
+				TargetAttributes = {
+					2D10F4011E9B8E2B003C48FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RX43BK2XZ6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2D10F3FD1E9B8E2B003C48FC /* Build configuration list for PBXProject "DanaAnalyticDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 2D10F3F91E9B8E2B003C48FC;
+			productRefGroup = 2D10F4031E9B8E2B003C48FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D10F4011E9B8E2B003C48FC /* DanaAnalyticDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D10F4001E9B8E2B003C48FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10F4151E9B8E2B003C48FC /* LaunchScreen.storyboard in Resources */,
+				2DFB11201EA77D9600C1093B /* DAConf.plist in Resources */,
+				2D10F4121E9B8E2B003C48FC /* Assets.xcassets in Resources */,
+				2D10F4101E9B8E2B003C48FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D10F3FE1E9B8E2B003C48FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10F40D1E9B8E2B003C48FC /* ViewController.m in Sources */,
+				2D10F40A1E9B8E2B003C48FC /* AppDelegate.m in Sources */,
+				2D10F4071E9B8E2B003C48FC /* main.m in Sources */,
+				2DFB11031EA73F6600C1093B /* DetailViewController.m in Sources */,
+				2D3A3FD11EB04F2300E8E434 /* TestInwinowViewController.m in Sources */,
+				2DFB11041EA73F6600C1093B /* PostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D10F40E1E9B8E2B003C48FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D10F40F1E9B8E2B003C48FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D10F4131E9B8E2B003C48FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D10F4141E9B8E2B003C48FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D10F4171E9B8E2B003C48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D10F4181E9B8E2B003C48FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D10F41A1E9B8E2B003C48FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RX43BK2XZ6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"PrintLog=1",
+				);
+				INFOPLIST_FILE = DanaAnalyticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DanaAnalyticDemo/InstallSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.testnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = test_dev;
+			};
+			name = Debug;
+		};
+		2D10F41B1E9B8E2B003C48FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RX43BK2XZ6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = DanaAnalyticDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DanaAnalyticDemo/InstallSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.overseasgm.testnum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = test_dev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D10F3FD1E9B8E2B003C48FC /* Build configuration list for PBXProject "DanaAnalyticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D10F4171E9B8E2B003C48FC /* Debug */,
+				2D10F4181E9B8E2B003C48FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D10F4191E9B8E2B003C48FC /* Build configuration list for PBXNativeTarget "DanaAnalyticDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D10F41A1E9B8E2B003C48FC /* Debug */,
+				2D10F41B1E9B8E2B003C48FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D10F3FA1E9B8E2B003C48FC /* Project object */;
+}
